@@ -1,0 +1,183 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.icon{
+    color: rgb(255, 145, 0);
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 30px;
+    
+}
+
+.logo_img {
+    height: 60px;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: whitesmoke;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main > form > input {
+    background-color: white;
+}
+
+main > form > button {
+    background-color: rgb(228, 195, 10);
+    border: rgb(228, 195, 10);
+    margin-top: 1rem;
+    height: 3.8vh;
+    width: 17%;
+    font-weight: 1000;
+    text-align: center;
+}
+
+div > form > button {
+    background-color: rgb(228, 195, 10);
+    border: rgb(228, 195, 10);
+    margin-top: 0.5rem;
+    height: 3.8vh;
+    width: 30%;
+    margin-bottom: 1rem;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.email {
+    height: 2.5vh;
+    width: 30%;
+    font-size: 1.3ch;
+    color: white;
+    border: 2px solid black;
+}
+
+section > div > p {
+    padding-left: 88px;
+    margin-top: 0;
+}
+
+div > div > p {
+    text-align: center; 
+    margin-bottom: 1ch;
+}
+
+.trombone {
+    background-color: rgba(194, 192, 192, 0.253);
+    height: 4vh;
+    padding-top: 0.6ch;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+nav {
+    background-color: whitesmoke;
+    text-align: right;
+    padding-top: 2px;
+}
+
+.class {
+    padding-top: 20px;
+}
+
+.video {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.price{
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.price > div{
+    border: solid 1px black;
+    width: 300px;
+}
+
+header > img {
+    font-size: 40px;
+}
+
+.material {
+    margin-bottom: 0;
+    margin-left: 6ch;
+    font-size: 2.3ch;
+    font-weight: bold;
+}
+
+main > p {
+    margin-top: 0;
+    margin-left: 11.8ch;
+}
+
+ul {
+    text-align: right;
+    border: 1px solid transparent;
+    height: 5vw;
+    background-color: rgba(194, 192, 192, 0.253);
+    padding-right: 20px;
+    height: 75px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding-left: 2.5ch;
+}
+
+ul > a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(228, 226, 226, 0.253);
+    padding-left: 2.5ch;
+}
+
+ul > p > a {
+    color: black;
+    background-color: rgba(241, 234, 234, 0.253);
+    font-size: 13px;
+}
+
+ul > p {
+    background-color: rgba(241, 234, 234, 0.253);
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 
+@media (min-width: 1200px){
+   .project {
+    border: 1px solid transparent;
+    width: 75%;
+    height: 400px;
+    padding-left: 550px;
+  }
+  .price {
+    border: 1px solid transparent;
+    width: 75%;
+    height: 400px;
+    padding-left: 550px;
+  } 
+} */
